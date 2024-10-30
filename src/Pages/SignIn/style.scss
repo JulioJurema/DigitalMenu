@@ -1,0 +1,61 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+
+    .signInCard{
+        background-color: #fff;
+        padding: 2em 1em;
+        border-radius: .5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+        h2{
+            font-weight: 900;
+            color: #333;     
+            font-size: 30px;  
+            margin-bottom: 1em;     
+        }
+
+        span{
+            font-weight: 300;
+            color: #525252;
+            max-width: 15em;
+            text-align: center;
+            font-size: 15px;
+
+            margin-bottom: 2em;
+        }
+
+        button{
+            background: none;
+            padding: .5em 4em;
+            margin-top: 2em;
+            border: 2px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .5s;
+
+            .icon{
+                margin-right: 5px;
+            }
+            
+            &:hover{
+                border: 2px solid rgb(1, 157, 1);
+                color: rgb(1, 157, 1);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            }
+        }
+    }
+
+    
+}
