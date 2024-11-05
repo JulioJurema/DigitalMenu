@@ -14,6 +14,7 @@ const Administration:React.FC = () => {
     }
 
     useEffect(() =>{
+
         const statusLogado = localStorage.getItem("token");
 
         if(!statusLogado){
