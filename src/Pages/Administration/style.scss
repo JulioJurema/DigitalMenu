@@ -1,0 +1,22 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #7c5353;
+    justify-content: space-between;    
+    width: auto;
+    align-items: center;
+    padding: 1em 3em;
+    color: white;
+
+    .navHeader{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+        button{
+            margin-left: 2em;
+            padding: 0 .5em;
+        }
+    }
+}

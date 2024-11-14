@@ -6,12 +6,9 @@ import { auth } from "../../firebaseConfig";
 import './style.scss';
 import { useEffect, useState } from "react";
 
-interface SignInProps{
-    userEmail: string;
-}
 
 
-const SignIn: React.FC<SignInProps> = () => {
+const SignIn: React.FC = () => {
     const [statusLogin, setStatusLogin] = useState<string | null>(null);
     const navigate = useNavigate();
     const db = getFirestore();
